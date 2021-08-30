@@ -44,24 +44,24 @@
 
 	<div class="section-title-new">
 
-		<div class="banner-stayfit">
+		<div class="banner-bfc">
 			
 			<div>
 				<video class="video_bfc"  autoplay muted >
-				  <source src="../video/stayfit.mp4" type="video/mp4" >
+				  <source src="../video/bfc.mp4" type="video/mp4" >
 				</video>
 			</div>
 
 			<div>
-				<h3>App Design</h3>
-				<h2>Stay Fit</h2>
+				<h3>Web Design</h3>
+				<h2>Bottles For Change</h2>
 				<h6>Case Study</h6>
 			</div>
 			
 		</div>
 
 		<svg
-		  class="slant"
+		  class="slant1"
 		  xmlns="http://www.w3.org/2000/svg"
 		  viewBox="0 0 100 100"
 		  preserveAspectRatio="none"
@@ -77,8 +77,9 @@
 			<h4>Description</h4>
 		</div>
 		<div class="project-description-content">
-			<p>Stay Fit is a fictional project I made for UX/UI case study.</p>
-			<p>Stay Fit has multiple juice centers across city, they produce fresh juice and protein shakes. The primary goal was to build an app for people to place order and track their home delivery.</p>
+			<p>Bottles for Change aims to create awareness among citizens about importance of plastic recycling. When plastic is thrown in waste, it ends up in sea, ocean, drains, river etc. and causes pollution, so don’t treat plastic as waste, it has value even after use, just clean it, collect it and send it directly for recycling.</p>
+			<p>Through this initiative we ensure channelizing all kinds of used clean plastic for recycling thus ensuring the greener cleaner environment</p>
+			<p>Bisleri has engaged with a NGO called Parisar Bhagni Vikas Sangh (PBVS), a social enterprise Sampurna Earth in Mumbai and recycler Dalmia Polypro Industries Ltd., which are associated with the plastic agents/kabadiwala groups in Mumbai. The plastic collected by us are crushed into fine flakes which are then used to create non-edible products such as - Cloth fabric, Hand bags, Window blinds and other useful products.</p>
 		</div>
 
 
@@ -106,24 +107,12 @@
 		<div class="persona-content">
 			<div class="persona-image">
 				<img src="../images/bfc/user-persona.jpg">
-				<p>Karen Ortha</p>
+				<p>John Doe</p>
 			</div>
 
 			<div class="persona-details">
-				<h4>41 / Software Developer / Mumbai</h4>
-				<p>He goes for a morning walk daily in a nearby park and wants to have a healthy drink after the walk when he reaches home.</p>
-			</div>
-		</div>
-
-		<div class="persona-content reverse">
-			<div class="persona-image">
-				<img src="../images/bfc/user-persona1.jpg">
-				<p>Claude Teak</p>
-			</div>
-
-			<div class="persona-details">
-				<h4>24 / Student / Mumbai</h4>
-				<p>He goes to the gym and wants to have a protein shake after a workout.</p>
+				<h4>35 / Manager / Mumbai</h4>
+				<p>John is manager of a hotel, his hotel generates plastic waste. He wants to give away his plastic for recycling hazel free</p>
 			</div>
 		</div>
 
@@ -136,7 +125,7 @@
 			<h4>USER Flow</h4>
 		</div>
 
-		<img src="../images/stayfit/user-flow.png"  width="100%">
+		<img src="../images/bfc/user-flow.png"  width="100%">
 
 	</div>
 
@@ -158,7 +147,7 @@
 			<h4>Typography</h4>
 		</div>
 
-		<img src="../images/stayfit/typo.png"  width="100%">
+		<img src="../images/bfc/bfc-typo.png"  width="100%">
 
 
 	</div>
@@ -169,31 +158,8 @@
 			<h4>Colors</h4>
 		</div>
 
-		<img src="../images/stayfit/color.png">	
+		<img src="../images/bfc/color.png" >
 
-	</div>
-
-	<div class="colors-new">
-		<div class="new-title">
-			<h6>Ui</h6>
-			<h4>Logo Design</h4>
-		</div>
-
-		<img src="../images/stayfit/logo-inspi.png">	
-
-	</div>
-
-	<div class="colors-new pb-100">
-		<div class="new-title">
-			<h6>Ui</h6>
-			<h4>Wireframe</h4>
-		</div>
-		<div class="mobile-wireframe-new">
-			<img src="../images/stayfit/wireframe1.png" class="">
-			<img src="../images/stayfit/wireframe2.png" class="">
-			<img src="../images/stayfit/wireframe3.png" class="">
-			<img src="../images/stayfit/wireframe4.png" class="">
-		</div>
 	</div>
 
 
@@ -207,9 +173,9 @@
 		  <polygon points="0,100 100,0 100,100" />
 		</svg>
 	
-	<div class="view-website-button stayfit">
-		<a target="_blank" href="https://www.figma.com/proto/BJHLQdeHNZboSM4bSqBXsn/Stay-Fit?node-id=118%3A0&scaling=scale-down&page-id=0%3A1">View Prototype</a>
-		<img src="../images/stayfit/banner.png" class="bottom_img_stayfit">
+	<div class="view-website-button">
+		<a target="_blank" href="https://www.bottlesforchange.in/">View Website</a>
+		<img src="../images/bfc/banner.png" class="bottom_img_bfc">
 	</div>
 	
 

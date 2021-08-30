@@ -1,0 +1,36 @@
+
+.banner-styafit div:first-child{
+	position: absolute;
+	left: -450px;
+	width: 1200px;
+
+}
+
+.banner-styafit div:last-child{
+	z-index: 9;
+	position: absolute;
+	right: -15px;
+	color: white;
+	/*margin-left: 500px;*/
+	top: 50%;
+    transform: translateY(-95%);
+}
+
+.banner-styafit h3, .banner-styafit h2, .banner-styafit h6{
+	font-family: "Gemunu-XBold", Helvatica , sans-serif;
+}
+
+.banner-styafit h3{
+	font-size: 34px;
+}
+
+.banner-styafit h2{
+	font-size: 75px;
+	color: #48ad9d
+}
+
+.banner-styafit h6{
+	font-size: 22px;
+    color: #a5a5a5;
+	font-family: "Gemunu-Regular", Helvatica , sans-serif;
+}

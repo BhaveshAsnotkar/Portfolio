@@ -76,12 +76,12 @@
 				</div>
 			</div>
 
-			<div class="tray-item black-one">
-				<img class="tray-img" src="images/outline-logo.jpg">
+			<div class="tray-item black-one-bfc">
+				<img class="tray-img" src="images/bfc/banner.png">
 				<div>
-					<span class="tray-title">Graphic Design</span>
-					<span class="tray-subtitle">New App design</span>
-					<a class="tray-cta" href="content/graphic.php">View Designs</a>
+					<span class="tray-title">Bottles for Change</span>
+					<span class="tray-subtitle">Web Design</span>
+					<a class="tray-cta" href="content/bfc.php">View Case Study</a>
 				</div>
 			</div>
 
@@ -91,6 +91,16 @@
 					<span class="tray-title">Esociety</span>
 					<span class="tray-subtitle">New App design</span>
 					<a class="tray-cta" href="content/esociety.php">View Case Study</a>
+				</div>
+			</div>
+
+
+			<div class="tray-item black-one">
+				<img class="tray-img" src="images/outline-logo.jpg">
+				<div>
+					<span class="tray-title">Graphic Design</span>
+					<span class="tray-subtitle">New App design</span>
+					<a class="tray-cta" href="content/graphic.php">View Designs</a>
 				</div>
 			</div>
 
