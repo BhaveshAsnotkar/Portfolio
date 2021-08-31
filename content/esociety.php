@@ -198,7 +198,7 @@
 		</svg>
 	
 	<div class="view-website-button esociety">
-		<a target="_blank" href="https://www.figma.com/proto/BJHLQdeHNZboSM4bSqBXsn/Stay-Fit?node-id=118%3A0&scaling=scale-down&page-id=0%3A1">View Prototype</a>
+		<a target="_blank" href="https://www.figma.com/proto/KtY3aetcdLJMUFPHIGZowE/Esociety?node-id=3%3A140&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2">View Prototype</a>
 		<img src="../images/esociety/banner.png" class="bottom_img_esociety">
 	</div>
 	
