@@ -169,7 +169,7 @@
 		<img src="images/contact-img.png">
 		<div class="contact-details">
 			<div class="contact-item"><img src="images/email.png"> <p>bhaveshasnotkar@gmail.com</p></div>
-			<div class="contact-item"><img src="images/phone.png"> <p>8237264166  |  8149220660</p></div>
+			<div class="contact-item"><img src="images/phone.png"> <p>8237264166</p></div>
 		</div>
 	</div>
 
