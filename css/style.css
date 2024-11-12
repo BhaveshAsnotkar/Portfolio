@@ -21,6 +21,7 @@ body{
 	clear: both;
 }
 
+
 #loader {
     /*background: url('https://media.giphy.com/media/VseXvvxwowwCc/giphy.gif') no-repeat center center;*/
     background: url('https://cdn.dribbble.com/users/93713/screenshots/1701773/_shot.gif') no-repeat center center;
@@ -410,6 +411,11 @@ nav{
 	top:-10px;
 }
 
+.tray-img.spyduscover{
+	height: 100%;
+	left:-50px;
+}
+
 .tray-item > div{
 	display: flex;
 	flex-direction: column;
@@ -422,12 +428,24 @@ nav{
 	font-size: 90px;
 	font-family: Gemunu-XBold, sans-serif;
 	color: #333333;
+	text-shadow: 2px 2px 5px #c8c8c8;
+}
+
+.black-one-bfc .tray-title,
+.black-one .tray-title{
+	text-shadow: 2px 2px 5px #323232;
 }
 
 .tray-subtitle{
 	font-size: 32px;
 	font-family: DMsans-Regular, sans-serif;
 	margin-top: 20px;
+	text-shadow: 1px 1px 3px #c8c8c8;
+}
+
+.black-one-bfc .tray-subtitle,
+.black-one .tray-subtitle{
+	text-shadow: 1px 1px 3px #323232;
 }
 
 .tray-cta{
@@ -467,7 +485,7 @@ nav{
 /*PORTFOLIO*/
 
 
-/*----------------------MY WORK ------- */
+/*----------------------MY WORK --------------- */
 
 .hovereffect {
 width:100%;
@@ -579,7 +597,7 @@ overflow:hidden;
       overflow:hidden;
 }
 
-/*-----------------ENDS MY WORK ------- */
+/*-----------------ENDS MY WORK ------------------ */
 
 
 /*SKILLS*/
@@ -621,6 +639,9 @@ overflow:hidden;
 	/*width: 85%;*/
 }
 
+.bar-fill.UIUX-bar{
+    width: 98%;
+}
 .bar-fill.figma-bar{
     width: 85%;
 }
@@ -1013,6 +1034,14 @@ overflow:hidden;
 	width: 100%;
 }
 
+.video_nutrichef{
+	width: 86%;
+}
+
+.video_wps{
+	width: 85%;
+}
+
 .prototype-link a{
 	border: 1px solid #f5f5f5;
 	padding: 5px 15px;
@@ -1071,6 +1100,23 @@ overflow:hidden;
 	right: 28px;
 	z-index: 1;
 	height: 500px;
+}
+
+
+.high-fedility-new{
+	display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    margin-top: 25px;
+}
+
+.high-fedility-new img{
+	width: 100%;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px #444444;
 }
 
 /*CASE STUDY PAGE ENDS*/
@@ -1164,6 +1210,7 @@ overflow:hidden;
 	color: #e3e3e3;
 	font-family: DMsans-Regular;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .persona-details{
@@ -1367,6 +1414,13 @@ overflow:hidden;
     top: -55px;
 }
 
+.bottom_img_wps{
+	position: absolute;
+    height: 484px;
+    top: -204px;
+    right: 150px;
+}
+
 .bottom_img_esociety {
     position: absolute;
     height: 539px;
@@ -1460,6 +1514,29 @@ overflow:hidden;
 .logo-design,
 .flyer{
 	margin-top: 25px;
+}
+
+.view-website-button button {
+    font-size: 24px;
+    color: #48ad9d;
+    text-decoration: none;
+    font-family: "DMsans-Regular";
+    border: 2px solid #48ad9d;
+    padding: 10px 25px;
+    border-radius: 9px;
+    z-index: 9;
+}
+
+.view-website-button button:hover{
+	cursor: not-allowed;
+}
+
+.nda-text{
+	font-size: 12px;
+	font-family: "DMsans-Regular";
+	color: #9d9d9d;
+	margin-top: 9px;
+
 }
 
 /*--------------------------------------------------LAPTOP MEDIA QUERY START--------------------------------------------------*/
@@ -1641,6 +1718,21 @@ overflow:hidden;
 	    width: 46%;
 	}
 
+	.video_wps,
+	.video_nutrichef {
+	    width: 55%;
+	}
+
+	.banner-stayfit.wps,
+	.banner-stayfit.nutrichef {
+	    height: 500px;
+	}
+
+	.bottom_img_wps {
+	    height: 381px;
+	    top: -101px;
+	    right: 86px;
+	}
 
 }
 
@@ -1803,7 +1895,9 @@ overflow:hidden;
 		margin-bottom: 0;
 	}
 
-
+	.video_wps {
+    	width: 58%;
+	}
 
 }
 
@@ -2648,6 +2742,14 @@ overflow:hidden;
 
 	.logo-design img{
 		margin-right: 0;
+	}
+	.video_nutrichef,
+	.video_wps{
+		width: 100%
+	}
+
+	.high-fedility-new{
+		grid-template-columns: auto;
 	}
 
 

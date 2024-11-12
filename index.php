@@ -45,7 +45,7 @@
 				<span>I Enjoy turning complex problems into simple, beautiful and intiuitive designs. As a designer and developer, I understand the perfect user interface should look good and work even better.</span>
 				<div class="cta-set">
 					<button class="btn primary mobile-hide" onclick="location.href='#portfolio'"><span class="btn-icon"><i class="far fa-eye"></i></span><span class="btn-txt">View Portfolio</span></button>
-					<a href="images/CV-Bhavesh Asnotkar.pdf" download><button class="btn secondary"><span class="btn-icon"><i class="fas fa-file-download"></i></span><span class="btn-txt">Download CV</span></button></a>
+					<a href="images/CV/CV_Bhavesh_Asnotkar.pdf" download><button class="btn secondary"><span class="btn-icon"><i class="fas fa-file-download"></i></span><span class="btn-txt">Download CV</span></button></a>
 				</div>
 		</div>
 		<div class="right-hero">
@@ -67,6 +67,61 @@
 		</div>
 
 		<div class="portfolio-tray">
+
+			<div class="tray-item first">
+				<img class="tray-img" src="images/nutrichef_pannel.png">
+				<div>
+					<span class="tray-title">NutriChef</span>
+					<span class="tray-subtitle">New App design</span>
+					<a class="tray-cta" href="content/nutrichef.php">View Case Study</a>
+				</div>
+			</div>
+
+			<div class="tray-item black-one-bfc">
+				<img class="tray-img" src="images/wps_cover.png">
+				<div>
+					<span class="tray-title">Civica Pay (WPS)</span>
+					<span class="tray-subtitle">Leagcy System Redesign</span>
+					<a class="tray-cta" href="content/wps.php">View Case Study</a>
+				</div>
+			</div>
+
+			<!-- <div class="tray-item first">
+				<img class="tray-img spyduscover" src="images/spydus_cover.png">
+				<div>
+					<span class="tray-title">Spydus</span>
+					<span class="tray-subtitle">Leagcy System Redesign</span>
+					<a class="tray-cta" href="content/stayfit.php">View Case Study</a>
+				</div>
+			</div>
+
+			<div class="tray-item black-one-bfc">
+				<img class="tray-img" src="images/spydus_hackthon.png">
+				<div>
+					<span class="tray-title">Library App</span>
+					<span class="tray-subtitle">Mobile App - Hackathon</span>
+					<a class="tray-cta" href="content/bfc.php">View Case Study</a>
+				</div>
+			</div>
+
+			<div class="tray-item first">
+				<img class="tray-img" src="images/rems_cover.png">
+				<div>
+					<span class="tray-title">Rems</span>
+					<span class="tray-subtitle">Legacy System Redesign</span>
+					<a class="tray-cta" href="content/stayfit.php">View Case Study</a>
+				</div>
+			</div>
+
+			<div class="tray-item black-one-bfc">
+				<img class="tray-img" src="images/bfc/banner.png">
+				<div>
+					<span class="tray-title">Bottles for Change</span>
+					<span class="tray-subtitle">Web Design</span>
+					<a class="tray-cta" href="content/bfc.php">View Case Study</a>
+				</div>
+			</div> -->
+
 			<div class="tray-item first">
 				<img class="tray-img" src="images/stayfit.png">
 				<div>
@@ -125,17 +180,21 @@
 		<div class="skill-flex">
 			<div class="skill-details">
 				<div class="skill-item">
-					<p class="skill-text"><img src="images/figma.png">Figma<br><a href="images/UC-426d7831-ce95-4343-9c7c-356325e180fb.pdf" download>Certificate</a></p>
+					<p class="skill-text"><img src="images/google.png">UX/UI<br><a href="images/certificate/Coursera 8VRPAFKRFSPG.pdf" download>Certificate</a></p>
+					<div class="bar-bg"><div class="bar-fill UIUX-bar"></div></div>
+				</div>
+				<div class="skill-item">
+					<p class="skill-text"><img src="images/figma.png">Figma<br><a href="images/certificate/UC-426d7831-ce95-4343-9c7c-356325e180fb.pdf" download>Certificate</a></p>
 					<div class="bar-bg"><div class="bar-fill figma-bar"></div></div>
 				</div>
 				<div class="skill-item">
 					<p class="skill-text"><img src="images/illustrator.png">Illustrator</p>
 					<div class="bar-bg"><div class="bar-fill illustrator-bar"></div></div>
 				</div>
-				<div class="skill-item">
+				<!-- <div class="skill-item">
 					<p class="skill-text"><img src="images/photoshop.png">Photoshop</p>
 					<div class="bar-bg"><div class="bar-fill photoshop-bar"></div></div>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="skill-details">
