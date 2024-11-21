@@ -86,12 +86,12 @@
 				</div>
 			</div>
 
-			<!-- <div class="tray-item first">
+			<div class="tray-item first">
 				<img class="tray-img spyduscover" src="images/spydus_cover.png">
 				<div>
 					<span class="tray-title">Spydus</span>
 					<span class="tray-subtitle">Leagcy System Redesign</span>
-					<a class="tray-cta" href="content/stayfit.php">View Case Study</a>
+					<a class="tray-cta" href="content/spydus.php">View Case Study</a>
 				</div>
 			</div>
 
@@ -100,16 +100,16 @@
 				<div>
 					<span class="tray-title">Library App</span>
 					<span class="tray-subtitle">Mobile App - Hackathon</span>
-					<a class="tray-cta" href="content/bfc.php">View Case Study</a>
+					<a class="tray-cta" href="content/hackathon.php">View Case Study</a>
 				</div>
 			</div>
 
-			<div class="tray-item first">
+			<div class="tray-item first rems_tray">
 				<img class="tray-img" src="images/rems_cover.png">
 				<div>
-					<span class="tray-title">Rems</span>
+					<span class="tray-title">Rems - EDU</span>
 					<span class="tray-subtitle">Legacy System Redesign</span>
-					<a class="tray-cta" href="content/stayfit.php">View Case Study</a>
+					<a class="tray-cta" href="content/rems.php">View Case Study</a>
 				</div>
 			</div>
 
@@ -120,9 +120,9 @@
 					<span class="tray-subtitle">Web Design</span>
 					<a class="tray-cta" href="content/bfc.php">View Case Study</a>
 				</div>
-			</div> -->
+			</div>
 
-			<div class="tray-item first">
+			<!-- <div class="tray-item first">
 				<img class="tray-img" src="images/stayfit.png">
 				<div>
 					<span class="tray-title">Stay Fit</span>
@@ -147,6 +147,15 @@
 					<span class="tray-subtitle">New App design</span>
 					<a class="tray-cta" href="content/esociety.php">View Case Study</a>
 				</div>
+			</div> -->
+
+			<!-- <div class="tray-item first">
+				<img class="tray-img" src="images/esociety.png">
+				<div>
+					<span class="tray-title">FireFly</span>
+					<span class="tray-subtitle">Design System Library</span>
+					<a class="tray-cta" href="content/esociety.php">View Case Study</a>
+				</div>
 			</div>
 
 
@@ -157,7 +166,7 @@
 					<span class="tray-subtitle">New App design</span>
 					<a class="tray-cta" href="content/graphic.php">View Designs</a>
 				</div>
-			</div>
+			</div> -->
 
 
 			

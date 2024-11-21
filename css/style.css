@@ -21,6 +21,10 @@ body{
 	clear: both;
 }
 
+.mt-20{
+	margin-top: 20px!important;
+}
+
 
 #loader {
     /*background: url('https://media.giphy.com/media/VseXvvxwowwCc/giphy.gif') no-repeat center center;*/
@@ -390,7 +394,7 @@ nav{
 }
 
 .portfolio-tray{
-	padding: 100px;
+	padding: 0 100px 100px 100px;
 }
 
 .tray-item{
@@ -459,6 +463,7 @@ nav{
 	font-family: DMsans-Regular, sans-serif;
 	margin-top: 15px;
 	transition: 0.3s;
+	z-index: 999999;
 }
 
 .tray-cta:hover{
@@ -481,6 +486,13 @@ nav{
 .portfolio-tray .tray-item:last-child{
 	margin-bottom: 0;
 }
+
+.tray-item.first.rems_tray .tray-img {
+    left: -332px;
+    left: none;
+}
+
+
 
 /*PORTFOLIO*/
 
@@ -643,11 +655,11 @@ overflow:hidden;
     width: 98%;
 }
 .bar-fill.figma-bar{
-    width: 85%;
+    width: 94%;
 }
 
 .bar-fill.illustrator-bar{
-    width: 89%;
+    width: 88%;
 }
 
 .bar-fill.photoshop-bar{
@@ -661,7 +673,7 @@ overflow:hidden;
     width: 99%;
 }
 .bar-fill.js-bar{
-    width: 75%;
+    width: 72%;
 }
 
 .skill-text{
@@ -1038,8 +1050,13 @@ overflow:hidden;
 	width: 86%;
 }
 
-.video_wps{
+.video_wps,
+.video_rems{
 	width: 85%;
+}
+
+.video_wps{
+	width: 83%;
 }
 
 .prototype-link a{
@@ -1112,7 +1129,22 @@ overflow:hidden;
     margin-top: 25px;
 }
 
+.high-fedility-mobile{
+	display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin-top: 25px;
+}
+
 .high-fedility-new img{
+	width: 100%;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px #444444;
+}
+.high-fedility-mobile img{
 	width: 100%;
 	margin:0 auto;
 	border-radius: 5px;
@@ -1160,6 +1192,13 @@ overflow:hidden;
 	background-color: #383838;
 	padding: 50px 400px;
 	display: flex;
+}
+.project-description.hackthon_des{
+	background-color: #383838;
+	padding: 50px 400px;
+	display: grid;
+	grid-template-columns: 30fr 70fr;
+    grid-row-gap: 80px;
 }
 
 .new-title h4{
@@ -1421,6 +1460,21 @@ overflow:hidden;
     right: 150px;
 }
 
+.bottom_img_spydus{
+	position: absolute;
+    height: 389px;
+    top: -158px;
+    right: 82px;
+}
+
+.bottom_img_spydus_mobile{
+	position: absolute;
+    height: 517px;
+    top: -286px;
+    right: 260px;
+}
+
+
 .bottom_img_esociety {
     position: absolute;
     height: 539px;
@@ -1536,8 +1590,20 @@ overflow:hidden;
 	font-family: "DMsans-Regular";
 	color: #9d9d9d;
 	margin-top: 9px;
-
 }
+
+.bottom_img_rems {
+    position: absolute;
+    height: 569px;
+    top: -302px;
+    right: 82px;
+}
+
+
+.banner-stayfit.rems{
+    height: 588px;
+}
+
 
 /*--------------------------------------------------LAPTOP MEDIA QUERY START--------------------------------------------------*/
 
@@ -1677,6 +1743,10 @@ overflow:hidden;
 		font-size: 75px;
 	}
 
+	.tray-item.first.rems_tray .tray-img {
+    	left: -356px;
+	}
+
 	.tray-subtitle{
 		font-size: 24px;
 		margin-top: 10px;
@@ -1711,7 +1781,8 @@ overflow:hidden;
 	}
 
 	.persona-image{
-		width: auto;
+		/*width: auto;*/
+		width: min-width;
 	}
 
 	.fbpost-new img{
@@ -1723,6 +1794,10 @@ overflow:hidden;
 	    width: 55%;
 	}
 
+	.video_rems{
+		width: 49%;
+	}
+
 	.banner-stayfit.wps,
 	.banner-stayfit.nutrichef {
 	    height: 500px;
@@ -1732,6 +1807,32 @@ overflow:hidden;
 	    height: 381px;
 	    top: -101px;
 	    right: 86px;
+	}
+
+	.bottom_img_spydus_mobile{
+		position: absolute;
+	    height: 389px;
+	    top: -158px;
+	    right: 82px;
+	}
+
+	.video_spydus_mobile{
+		width:50%;
+	}
+
+	.project-description.hackthon_des{
+		padding: 50px 250px;
+	}
+
+	.persona-image{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+	}
+
+	.banner-stayfit.rems {
+	    height: 473px;
 	}
 
 }
@@ -1870,6 +1971,10 @@ overflow:hidden;
 		margin-top: 11px;
 	}
 
+	.tray-item.first.rems_tray .tray-img {
+    	left: -356px;
+	}
+
 	.banner-bfc div:first-child {
 		left: -180px;
 		width: 730px;
@@ -1897,6 +2002,25 @@ overflow:hidden;
 
 	.video_wps {
     	width: 58%;
+	}
+
+	.video_rems{
+		width: 49%;
+	}
+
+	.project-description.hackthon_des{
+		padding: 50px 250px;
+	}
+
+	.persona-image{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+	}
+
+	.banner-stayfit.rems {
+	    height: 473px;
 	}
 
 }
@@ -2586,6 +2710,10 @@ overflow:hidden;
 	    height: 138px;
 	}
 
+	.tray-item.first.rems_tray .tray-img {
+	    left: -177px;
+	}
+
 	.banner-stayfit div:first-child,
 	.banner-bfc div:first-child{
 		position: relative;
@@ -2675,7 +2803,8 @@ overflow:hidden;
 	}
 
 	.persona-image{
-		width: auto;
+		/*width: auto;*/
+		width: min-width;
 	}
 
 	.persona-image > img{
@@ -2744,12 +2873,33 @@ overflow:hidden;
 		margin-right: 0;
 	}
 	.video_nutrichef,
-	.video_wps{
+	.video_wps,
+	.video_rems{
 		width: 100%
 	}
 
 	.high-fedility-new{
 		grid-template-columns: auto;
+	}
+
+	.video_spydus_mobile{
+		width: 100%;
+	}
+
+	.project-description.hackthon_des{
+		padding: 50px 9px;
+		grid-template-columns: auto;
+	    grid-row-gap: 5px;
+	}
+
+	.project-description.hackthon_des .project-description-content{
+		margin-bottom: 50px;
+	}
+
+	.high-fedility-mobile{
+		grid-template-columns: auto auto;
+		grid-column-gap: 12px;
+	    grid-row-gap: 12px;
 	}
 
 
