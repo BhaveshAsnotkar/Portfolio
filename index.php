@@ -176,6 +176,21 @@
 
 	</section>
 
+	<!-- EXPERTISE -->
+
+
+	<section id="expertise" class="expertise">
+		<div class="section-title">
+			<h3>My Expertise</h3>
+		</div>
+
+		<div class="expert-img-container">
+			<img src="images/expertise.png" class="expert-info">
+		</div>
+	</section>
+
+
+	<!-- END EXPERTISE -->
 	<!-- PORTFOLIO -->
 
 
