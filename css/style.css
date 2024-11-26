@@ -1621,6 +1621,271 @@ overflow:hidden;
 }
 
 
+/*--------------------------------------------------1920 LAPTOP MEDIA QUERY START--------------------------------------------------*/
+
+@media only screen and (min-device-width : 1530px) and (max-device-width : 1600px) {
+	nav{
+		padding: 10px 50px;
+	}
+
+	.logo{
+		height: 55px;
+	}
+
+	.banner-img-hw{
+		height: 280px;
+	}
+
+	.left-hero h2{
+		font-size: 45px;
+	}
+
+	.ultimate-circuit{
+		height: 30px;
+	}
+
+	.left-hero h4{
+		font-size: 24px;
+	}
+
+	.left-hero > span{
+		font-size: 16px;
+	}
+
+	.btn{
+		height: 35px;
+	    width: 155px;
+	    font-size: 16px;
+	}
+
+	.portfolio-showcase{
+		padding: 0 50px;
+		grid-template-columns: repeat(3, 270px);
+	}
+
+	.hovereffect a.info{
+		margin: 88px 0 0;
+	}
+
+	.hovereffect h2 {
+		font-size: 16px;
+	}
+
+	.skills,
+	.contact-section{
+		padding: 0 50px;
+		overflow: hidden;
+	}
+
+	.contact-section{
+		padding-bottom: 100px;
+	}
+
+	.bar-fill, .bar-bg{
+		height: 16px;
+	}
+
+	.bar-bg{
+		width: 310px;
+	}
+
+	.contact-flex > img{
+		height: 200px;
+	}
+
+	.contact-item {
+		font-size: 16px;
+	}
+
+	.contact-item > img {
+		height: 22px;
+	}
+
+	.big-circuit-design.two {
+	    height: 150px;
+	    right: -6px;
+	}
+
+	.big-circuit-design.three {
+	    height: 28px;
+	}
+
+	.logo-inspi{
+		height: 450px;
+	}
+
+	.mobile-wireframe img{
+		height: 320px;
+	}
+
+	.style-guide-img.stayfit{
+		width: 650px;
+	}
+
+	.video_esoceity{
+		width: 80%
+	}
+
+	.banner-img-me{
+		height: 910px;
+	}
+
+	.banner-img-me{
+		position: absolute;
+		right: 0;
+	}
+
+	.tray-img{
+		z-index: 1;
+		height: 140%;
+	}
+
+	.tray-item > div{
+		z-index: 2;
+	}
+
+	.tray-cta{
+		background-color: #ffffff;
+		font-size: 16px;
+		margin-top: 9px;
+	}
+
+	.tray-item.first .tray-img{
+	    left: -154px;
+	    top: -48px;
+	}
+
+	.tray-title{
+		font-size: 75px;
+	}
+
+	.tray-item.first.rems_tray .tray-img {
+    	left: -356px;
+	}
+
+	.tray-subtitle{
+		font-size: 24px;
+		margin-top: 10px;
+	}
+
+	.section-title-new{
+		padding: 40px 46px;
+	}
+
+	.project-description,
+	.persona-new,
+	.user-flow-new,
+	.typography-new,
+	.colors-new,
+	.web-banner-bg,
+	.section-title-new{
+		padding: 40px 250px;
+	}
+
+	.banner-stayfit div:first-child{
+	    left: -62px;
+	    width: 1025px;
+	}
+
+	.banner-stayfit div:last-child{
+	    right: 53px;
+	}
+
+	.persona-image img{
+	    height: 315px;
+	    width: auto;
+	}
+
+	.persona-image{
+		/*width: auto;*/
+		width: min-width;
+	}
+
+	.fbpost-new img{
+	    width: 46%;
+	}
+
+	.video_wps,
+	.video_nutrichef {
+	    width: 55%;
+	}
+
+	.video_rems{
+		width: 65%;
+	}
+
+	.banner-stayfit.wps,
+	.banner-stayfit.nutrichef {
+	    height: 500px;
+	}
+
+	.bottom_img_wps {
+	    height: 381px;
+	    top: -101px;
+	    right: 86px;
+	}
+
+	.bottom_img_spydus_mobile{
+		position: absolute;
+	    height: 389px;
+	    top: -158px;
+	    right: 82px;
+	}
+
+	.video_spydus_mobile{
+		width:65%;
+	}
+
+	.project-description.hackthon_des{
+		padding: 50px 250px;
+	}
+
+	.persona-image{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+	}
+
+	.banner-stayfit.rems {
+	    height: 473px;
+	}
+
+	.expertise {
+	    padding: 0 50px;
+	    display: block;
+	    margin-top: 100px;
+	    margin-bottom: 100px;
+	}
+
+	.video_bfc {
+	    width: 76%;
+	}
+
+	.video_nutrichef {
+	    width: 73%;
+	}
+
+	.video_spydus{
+		width: 71%;
+	}
+
+	.bottom_img_spydus {
+	    height: 350px;
+	    top: -129px;
+    }
+
+    .bottom_img_rems {
+	    height: 509px;
+	    top: -241px;
+	    right: 20px;
+	}
+}
+
+
+/*--------------------------------------------------1920 LAPTOP MEDIA QUERY START--------------------------------------------------*/
+
+
 /*--------------------------------------------------LAPTOP MEDIA QUERY START--------------------------------------------------*/
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1440px)  {
@@ -1858,6 +2123,24 @@ overflow:hidden;
 	    margin-bottom: 100px;
 	}
 
+	.bottom_img_rems {
+	    height: 488px;
+	    top: -221px;
+	    right: -31px;
+	}
+
+	.video_bfc {
+	    width: 61%;
+	}
+
+	.banner-stayfit {
+	    height: 425px;
+	}
+
+	.mobile-wireframe-new {
+		column-gap: 10px;
+	}
+
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
@@ -2051,6 +2334,10 @@ overflow:hidden;
 	    display: block;
 	    margin-top: 100px;
 	    margin-bottom: 100px;
+	}
+
+	.mobile-wireframe-new {
+		column-gap: 10px;
 	}
 
 }

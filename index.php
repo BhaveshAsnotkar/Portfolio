@@ -122,7 +122,7 @@
 				</div>
 			</div>
 
-			<!-- <div class="tray-item first">
+			 <div class="tray-item first">
 				<img class="tray-img" src="images/stayfit.png">
 				<div>
 					<span class="tray-title">Stay Fit</span>
@@ -131,7 +131,7 @@
 				</div>
 			</div>
 
-			<div class="tray-item black-one-bfc">
+			<!-- <div class="tray-item black-one-bfc">
 				<img class="tray-img" src="images/bfc/banner.png">
 				<div>
 					<span class="tray-title">Bottles for Change</span>
