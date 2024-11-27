@@ -86,7 +86,9 @@ nav{
 	padding:10px 100px;
 	font-family: DMsans-Regular;
 	align-items: center;
-	position: sticky;
+	/*position: sticky;*/
+	position: fixed;
+	width: -webkit-fill-available;
 	top: 0;
 	z-index: 9999;
 }
