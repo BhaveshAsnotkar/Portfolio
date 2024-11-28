@@ -28,7 +28,8 @@ body{
 
 #loader {
     /*background: url('https://media.giphy.com/media/VseXvvxwowwCc/giphy.gif') no-repeat center center;*/
-    background: url('https://cdn.dribbble.com/users/93713/screenshots/1701773/_shot.gif') no-repeat center center;
+    /*background: url('https://cdn.dribbble.com/users/93713/screenshots/1701773/_shot.gif') no-repeat center center;*/
+    background: url('https://bhaveshasnotkar.in/images/loader.gif') no-repeat center center;
     background-color: #000000;
     position: fixed;
     top: 0;
