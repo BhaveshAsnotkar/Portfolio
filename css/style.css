@@ -1057,6 +1057,9 @@ overflow:hidden;
 .video_rems{
 	width: 85%;
 }
+.video_t2c{
+	width: 70%;
+}
 
 .video_wps{
 	width: 83%;
@@ -1195,6 +1198,8 @@ overflow:hidden;
 	background-color: #383838;
 	padding: 50px 400px;
 	display: flex;
+	position: relative;
+	z-index: 9;
 }
 .project-description.hackthon_des{
 	background-color: #383838;
@@ -1621,6 +1626,21 @@ overflow:hidden;
 
 .expert-info{
 	width: 100%;
+}
+
+.bottom_img_t2c_mobile {
+    position: absolute;
+    height: 517px;
+    top: -261px;
+    right: 100px;
+}
+
+.duo_pro_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
 }
 
 
@@ -3245,6 +3265,17 @@ overflow:hidden;
 	    margin-top: 0;
 	    margin-bottom: 50px;
 	}
+
+	.video_t2c {
+	    width: 100%;
+	    margin-bottom: 50px;
+	}
+
+	.duo_pro_btn {
+	    flex-direction: column;
+	    row-gap: 15px;
+	}
+
 
 
 }
