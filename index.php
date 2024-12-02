@@ -42,7 +42,7 @@
 				<h2><img src="images/ultimate.png" class="ultimate-circuit"><span> Experience</span></h2>
 				<h4>Bhavesh Asnotkar - UX/UI Designer</h4>
 				<p>Mumbai</p>
-				<span>I Enjoy turning complex problems into simple, beautiful and intiuitive designs. As a designer and developer, I understand the perfect user interface should look good and work even better.</span>
+				<span>With 6+ years of expertise, I specialize in designing seamless, user-centric digital experiences. From building scalable design systems to solving complex challenges, I bring ideas to life with creativity and precision.</span>
 				<div class="cta-set">
 					<button class="btn primary mobile-hide" onclick="location.href='#portfolio'"><span class="btn-icon"><i class="far fa-eye"></i></span><span class="btn-txt">View Portfolio</span></button>
 					<a href="images/CV/CV_Bhavesh_Asnotkar.pdf" download><button class="btn secondary"><span class="btn-icon"><i class="fas fa-file-download"></i></span><span class="btn-txt">Download CV</span></button></a>

@@ -2741,7 +2741,7 @@ overflow:hidden;
 		display: block;
 		padding: 0 15px;
     	height: auto;
-    	margin-top: 45px;
+    	margin-top: 94px;
     	margin-bottom: 85px;
 	}
 
@@ -2766,7 +2766,7 @@ overflow:hidden;
 
 	.left-hero > span{
 		font-size: 10px;
-	    width: 80%;
+	    width: 58%;
 	}
 
 	.bg-svg{
@@ -3026,7 +3026,7 @@ overflow:hidden;
 
 	.banner-img-me {
 	    z-index: -1;
-	    height: 270px;
+	    height: 248px;
 	    opacity: 22%;
 	    right: 0;
 	}
