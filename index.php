@@ -122,14 +122,14 @@
 				</div>
 			</div>
 
-			 <div class="tray-item first">
+			 <!-- <div class="tray-item first">
 				<img class="tray-img" src="images/stayfit.png">
 				<div>
 					<span class="tray-title">Stay Fit</span>
 					<span class="tray-subtitle">New App design</span>
 					<a class="tray-cta" href="content/stayfit.php">View Case Study</a>
 				</div>
-			</div>
+			</div> -->
 
 			<!-- <div class="tray-item black-one-bfc">
 				<img class="tray-img" src="images/bfc/banner.png">
