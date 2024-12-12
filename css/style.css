@@ -1754,6 +1754,17 @@ overflow:hidden;
 
 /*PAIN POINT end*/
 
+/*other*/
+
+.tray-item.first.ds_tray .tray-img {
+    left: -242px;
+    top: -55px;
+    rotate: -25deg;
+}
+
+/*other end*/
+
+
 
 /*--------------------------------------------------1920 LAPTOP MEDIA QUERY START--------------------------------------------------*/
 
