@@ -276,7 +276,7 @@
 		</svg>
 	
 	<div class="view-website-button stayfit mobile-hide">
-		<button disabled>View Prototype</button>
+		<!-- <button disabled>View Prototype</button> -->
 		<p class="nda-text">(Prototype unavailable due to NDA)</p>
 		<img src="../images/spydus/probaner.png" class="bottom_img_spydus">
 	</div>

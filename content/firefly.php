@@ -73,10 +73,9 @@
 		<div class="banner-stayfit rems">
 			
 			<div>
-				<!-- <video class="video_rems"  autoplay muted >
+				<video class="video_rems"  autoplay muted >
 				  <source src="../video/rems.mp4" type="video/mp4" >
-				</video> -->
-				<img src="../images/firefly/ds_banner.png" class="">
+				</video>
 			</div>
 
 			<div>
