@@ -99,6 +99,7 @@
 
 			<div class="tray-item first">
 				<img class="tray-img" src="images/nutrichef_pannel.png">
+				<img class="tray-img2" src="images/nutrichef/probanner-watch.png">
 				<div>
 					<span class="tray-title">NutriChef</span>
 					<span class="tray-subtitle">New App design</span>
@@ -153,6 +154,7 @@
 
 			<div class="tray-item first ds_tray">
 				<img class="tray-img" src="images/firefly_logo.png">
+				<img class="tray-img2" src="images/firefly-cover.png">
 				<div>
 					<span class="tray-title">Firefly</span>
 					<span class="tray-subtitle">Civica Design System</span>

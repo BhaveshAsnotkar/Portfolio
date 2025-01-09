@@ -238,6 +238,7 @@
 			<img src="../images/nutrichef/wireframe3.png" class="">
 			<img src="../images/nutrichef/wireframe4.png" class="">
 		</div>
+
 	</div>
 
 
@@ -255,6 +256,7 @@
 		<a target="_blank" href="https://www.figma.com/proto/IWp7vtN2eyIWVXZBZhNoNC/NutriChef--Final?node-id=193-6488&node-type=canvas&t=pt7VPVltFhjkRNQJ-1&scaling=scale-down&content-scaling=fixed&page-id=73%3A86&starting-point-node-id=193%3A6488">View Prototype</a>
 		<!-- <a target="_blank" href="https://www.figma.com/proto/KtUOQKS7KCHVfWfOrVfsBe/NutriChef--Final?node-id=193-6488&node-type=frame&t=MdpXTMvrYVFbFnLU-1&scaling=scale-down&content-scaling=fixed&page-id=73%3A86&starting-point-node-id=193%3A6488">View Prototype</a> -->
 		<img src="../images/nutrichef/probaner.png" class="bottom_img_stayfit">
+		<img src="../images/nutrichef/watch.png" class="bottom_img_watch">
 	</div>
 	
 
