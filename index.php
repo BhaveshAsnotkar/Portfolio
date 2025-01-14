@@ -154,8 +154,8 @@
 
 			<div class="tray-item first ds_tray">
 				<img class="tray-img" src="images/firefly_logo.png">
-				<img class="tray-img2" src="images/firefly-cover.png">
-				<div>
+				<img class="tray-img3" src="images/firefly-cover.png">
+				<div class ="z1">
 					<span class="tray-title">Firefly</span>
 					<span class="tray-subtitle">Civica Design System</span>
 					<a class="tray-cta" href="https://firefly.civica.com/" target="_blank">View Design System</a>
